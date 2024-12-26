@@ -1,12 +1,10 @@
-import Project from "../components/Project";
+import Project, { portfolioData } from "../components/Project";
+
 function Portfolio() {
     return(
         <div>
             <h2>Portfolio page</h2>
-            <Project />
-            <Project />
-            <Project />
-            <Project />
+            <Project data={portfolioData} />
         </div>
     )
 }
