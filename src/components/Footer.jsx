@@ -1,6 +1,10 @@
+import "./css/footer.css";
+
 function Footer() {
     return (
-        <div id="footer">Footer</div>
+        <div class="layoutFooter">
+        <a href="https://github.com/Duck-Method">GitHub</a>
+        </div>
     )
 }
 

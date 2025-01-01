@@ -1,3 +1,5 @@
+import "./css/project.css";
+
 const portfolioData =[
     {
         title: "Server API Weather Dashboard",
@@ -27,20 +29,22 @@ const portfolioData =[
 
 function Card({title, image, linkDeployed, linkGitHub}) {
     return (
-        <div class="card">
+        <section class="card">
             <h3>{title}</h3>
             <img src={image} alt={title} />
-            <a href={linkDeployed}>Deployed Live</a>
-            <a href={linkGitHub}>GitHub Repository</a>
-        </div>
+            <div class="cardLinks">
+                <a href={linkDeployed}>Deployed Live</a>
+                <a href={linkGitHub}>GitHub Repository</a>
+            </div>
+        </section>
     )
 }
 
 function Project({data}) {
     return (
-        <div>
+        <div class="cardView">
            {data.map((item, index) => (
-                <Card 
+                <Card class="card"
                     key={index} 
                     title={item.title} 
                     image={item.image} 
