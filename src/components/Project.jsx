@@ -13,12 +13,12 @@ const portfolioData =[
         linkDeployed: "https://drive.google.com/file/d/1lbasEq7Z3hivp9HzIoK-Rwsy9C4eId8L/view?usp=sharing",
         linkGitHub: "https://github.com/Duck-Method/SQL-Employee-Tracker"
     },
-    // {
-    //     title: "Test 3",
-    //     image:
-    //     linkDeployed:
-    //     linkGitHub:
-    // },
+    {
+        title: "First website",
+        image: "./images/healArt.JPG",
+        linkDeployed: "healersartmassage.com",
+        linkGitHub: "https://github.com/Duck-Method/Healers-Art"
+    },
     // {
     //     title: "Test 4",
     //     image:

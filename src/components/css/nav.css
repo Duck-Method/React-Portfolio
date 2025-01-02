@@ -1,23 +1,46 @@
-.layoutNav{
+.layoutNav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: #134455;
-    border-style: dashed;
-    border-color: #eae8e8;
     height: 100%;
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 5px;
     
 }
 
 li {
     display: flex;
     flex-direction: row;
+    
+}
+
+.layoutNav a:hover {
+    background-color: rgb(127, 150, 159);
+    color: rgb(234, 232, 232);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.active {
+    background-color: rgb(127, 150, 159);
+    color: rgb(234, 232, 232);
+    font-style: italic;
+    font-weight: bold;
     border-style: solid;
-    border-color:grey;
-    padding-right: 10px;
-    padding-left: 10px;
+    border-color:rgb(234, 232, 232);
+    padding-right: 15px;
+    padding-left: 15px;
+    text-shadow: 2px 2px black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.inactive {
+    background-color: rgb(234, 232, 232);
+    color: black;
+    border-style: solid;
+    border-color:rgb(127, 150, 159);
+    padding-right: 15px;
+    padding-left: 15px;
 }
